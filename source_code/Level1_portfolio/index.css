@@ -3,6 +3,8 @@
     display: flex;
     justify-content: center;
     background-color: rgb(145, 155, 135);
+    width: 100%;
+
 }
 #submain{
     width: 65%;height: auto;
@@ -89,7 +91,7 @@
     float: left;
 }
 #bodymain{
-    background-color: rgb(71, 66, 66);
+    background-color: rgb(54, 50, 50);
     width: 100%;
     padding: 5px;
 }
@@ -140,4 +142,93 @@
 .control{
     width: 0.67%;
     background-color: rgb(56, 53, 53);
+}
+.projects{
+    width: 100%;
+    height: 150pc;
+}
+.projrow1{
+    display: flex;
+    gap: 5px;
+    width:100%;
+    height: 20pc;
+
+    padding: 5px;
+    padding-bottom: 5px;
+}
+.projrow2{
+    display: flex;
+    gap: 5px;
+    width:100%;
+    height: 20pc;
+    padding: 5px;
+    padding-bottom: 5px;
+}
+.projrow3{
+    display: flex;
+    gap: 5px;
+    width:100%;
+    height: 20pc;
+    padding: 5px;
+    padding-bottom: 5px;
+}
+.projcol{
+    background-color: rgb(148, 98, 36);
+    width: 50%;
+    height: 100%;
+}
+.projco2{
+    background-color: bisque;
+    width: 50%;
+    height: 100%;
+
+}
+.projImage1{
+    width: 100%;
+    height: 65%;
+     background-image: url(images/arch.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.projImage2{
+    width: 100%;
+    height: 65%;
+     background-image: url(images/os.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.projImage3{
+    width: 100%;
+    height: 65%;
+     background-image: url(images/insu.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.projImage4{
+    width: 100%;
+    height: 65%;
+     background-image: url(images/learning.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.projImage5{
+    width: 100%;
+    height: 65%;
+     background-image: url(images/bank.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.projImage6{
+    width: 100%;
+    height: 65%;
+     background-image: url(images/food.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.imgdesc{
+    width: 100%;
+    height: 35%;
+    margin-bottom: 5px;
+    background-color: black;
+    color: aliceblue;
 }
