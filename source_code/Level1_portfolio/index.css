@@ -1,0 +1,143 @@
+
+#main{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(145, 155, 135);
+}
+#submain{
+    width: 65%;height: auto;
+    background-color: aqua;
+}
+.media{
+    display: flex;
+    background-color: rgb(48, 42, 42);
+}
+.media1{
+    width: 50%;
+}
+.media2{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+#header{
+    width:100% ;
+    padding: 5px;
+    background-color: rgb(85, 79, 79);
+}
+#head{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: rgb(5, 3, 4);
+}
+
+.media1>img,.media2_1>img{
+     border-radius: 50%;
+}
+.name{
+    color: rgb(204, 75, 75);
+}
+.quot{
+    color: rgb(237, 127, 32);
+}
+.me{
+    font-weight: 400;
+    font-size: 14px;
+}
+.header_1{
+    width: 25%;
+   height: auto;
+   background-color: rgb(37, 32, 32);
+}
+.header_2{
+    width: 50%;
+    height: auto;
+    color: rgb(247, 244, 244);
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bolder;
+    padding: 5px;
+    padding-left: 1%;
+    background-color: rgb(48, 42, 42);
+   
+}
+.header_2_1>hr{
+    width: 150px;
+    margin-left: 0%;
+}
+.header_3{
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    background-color: rgb(37, 32, 32);
+}
+.header_1>img{
+    width: 2in;
+    height: 2in;
+    border-radius:50%;
+    background-color: rgb(15, 4, 4);
+}
+.header_3_1>img{
+    width: 2in;
+    height: 2in;
+    border-radius:50%;
+    background-color: blue;
+    float: left;
+}
+#bodymain{
+    background-color: rgb(71, 66, 66);
+    width: 100%;
+    padding: 5px;
+}
+#skillsmain{
+    width: 100%;  
+    padding: 3px; 
+    background-color: rgb(48, 42, 42);
+}
+.skills{
+    display: flex;
+    height: 33.33%;
+    padding: 4px;
+    font-weight: bolder;
+    font-size: larger;
+    gap: 0.67%;
+}
+.skills_1{
+   
+    width: 32%;
+    padding: 4px;
+    color: aliceblue;
+    font-size: smaller;
+}
+
+.skills_2{
+    width: 32%;
+    padding: 4px;
+    color: darkkhaki;
+    font-size: smaller;
+}
+.skills_3{
+ 
+   width: 32%;
+   padding: 4px;
+   color: rgb(208, 58, 27);
+   font-size: smaller;
+}
+.competence{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.experience{
+    font-size: smaller;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    
+}
+.control{
+    width: 0.67%;
+    background-color: rgb(56, 53, 53);
+}
