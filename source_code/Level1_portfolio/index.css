@@ -1,4 +1,10 @@
 
+*{margin: 0%;
+
+}
+#section_header{
+    flex-shrink: 0;
+}
 #main{
     display: flex;
     justify-content: center;
@@ -8,7 +14,10 @@
 
 }
 #submain{
-    width: 65%;height: auto;
+    /*width: 65%;*/
+    flex-basis: 65%;
+    flex-shrink: 0;
+    height: auto;
     background-color: rgb(23, 26, 26);
 }
 .media{
@@ -16,10 +25,14 @@
     background-color: rgb(48, 42, 42);
 }
 .media1{
-    width: 50%;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    /*width: 50%;*/
 }
 .media2{
-    width: 50%;
+    /*width: 50%;*/
+    flex-shrink: 0;
+    flex-basis: 50%;
     display: flex;
     justify-content: right;
 }
@@ -50,12 +63,16 @@
     font-size: 14px;
 }
 .header_1{
-    width: 25%;
+    flex-shrink: 0;
+    flex-basis: 25%;
+    /*width: 25%;*/
    height: auto;
    background-color: rgb(37, 32, 32);
 }
 .header_2{
-    width: 50%;
+  /*  width: 50%;*/
+    flex-basis: 50%;
+    flex-shrink: 0px;
     height: auto;
     color: rgb(247, 244, 244);
     display: flex;
@@ -73,21 +90,23 @@
     margin-left: 0%;
 }
 .header_3{
-    width: 25%;
+   /* width: 25%;*/
+   flex-shrink: 0;
+   flex-basis: 25%;
     height: auto;
-    display: flex;
-    justify-content: right;
+   /* display: flex;
+    justify-content: right;*/
     background-color: rgb(37, 32, 32);
 }
 .header_1>img{
-    width: 2in;
-    height: 2in;
+    width: 2.5in;
+    height: 2.2in;
     border-radius:50%;
     background-color: rgb(15, 4, 4);
 }
 .header_3_1>img{
-    width: 2in;
-    height: 2in;
+    width: 2.5in;
+    height: 2.2in;
     border-radius:50%;
     background-color: blue;
     float: left;
@@ -121,21 +140,24 @@
 }
 .skills_1{
    
-    width: 32%;
+   /* width: 32%;*/
+   flex-basis: 32%;
     padding: 4px;
     color: aliceblue;
     font-size: smaller;
 }
 
 .skills_2{
-    width: 32%;
+     /* width: 32%;*/
+   flex-basis: 32%;
     padding: 4px;
     color: darkkhaki;
     font-size: smaller;
 }
 .skills_3{
  
-   width: 32%;
+    /* width: 32%;*/
+    flex-basis: 32%;
    padding: 4px;
    color: rgb(208, 58, 27);
    font-size: smaller;
@@ -185,71 +207,80 @@
 }
 .projcol{
     background-color: rgb(148, 98, 36);
-    width: 50%;
+    /*width: 50%;*/
     height: 100%;
+    flex-basis: 50%;
+    flex-shrink: 0;
 }
 .projco2{
     background-color: bisque;
-    width: 50%;
+   /* width: 50%;*/
     height: 100%;
-
+    flex-basis: 50%;
+    flex-shrink: 0;
 }
 .projImage1{
     width: 100%;
     height: 65%;
      background-image: url(images/arch.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .projImage2{
     width: 100%;
     height: 65%;
      background-image: url(images/os.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .projImage3{
     width: 100%;
     height: 65%;
      background-image: url(images/insu.PNG);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .projImage4{
     width: 100%;
     height: 65%;
      background-image: url(images/learning.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .projImage5{
     width: 100%;
     height: 65%;
      background-image: url(images/bank.PNG);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .projImage6{
     width: 100%;
     height: 65%;
      background-image: url(images/food.PNG);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .imgdesc{
     width: 93%;
-    height: 35%;
-    margin-bottom: 5px;
+    height: 8em;
     background-color: black;
     color: aliceblue;
     padding-left: 7%;
+    
+   
 }
+
 .nam1{
     color: rgb(208, 58, 2);
+    font-size: 1vw;
 }
 .requiredskill{
       font-family: 'Times New Roman', Times, serif;
-      font-size: 10pt;
+      font-size: 1vw;
+}
+.language-used{
+    font-size: 1vw;
 }
 #contact{
     display: flex;
@@ -271,12 +302,15 @@
 }
 #downmedia{
     padding-left: 10%;
+    width: 90%;
     background-color: rgb(29, 23, 23);
+   padding-right: 10px;
 
 }
 .cdt>img{
     width: 150px;
     height: 80px;
+    border-radius: 40%;
 }
 .tdc>img{
     width: 30px;
