@@ -1,0 +1,55 @@
+li a{
+    color: crimson;
+    font-family: Verdana;
+    font-size: 24px;
+}
+section{
+    background-color: chartreuse;
+    display: flex;
+}
+article{
+    
+    flex: 4;
+}
+.special{
+    flex: 2;
+}
+p{
+    position: relative;
+    z-index: 1;
+}
+b{
+    background-color: rgb(226, 235, 235);
+    border: 2px dashed black;
+}
+img{
+    width: 30%;
+    border-radius: 80%;
+    object-fit: cover;
+    <!--float: right;-->
+    margin-right: 2%;
+    
+
+
+
+}
+h3{
+font-family: serif;	
+font-style: italic;
+font-size: 20px;
+text-decoration: underline;
+text-shadow: 1px 1px 1px rgb(216, 205, 54),2px 2px 0px red;
+line-height: 1.1;
+color: rgb(112, 101, 101);
+z-index: 1;
+left: 5%;
+}
+body
+{
+    background-color:lightgoldenrodyellow;
+    background-image:"kenneth1.jpg";
+    margin: 5 5%;
+    font-family: sans-serif;
+    border:3px double brown;
+    padding: 5px 30px 5px 30px;
+}

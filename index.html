@@ -15,14 +15,6 @@
     
 
     <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    
-        <!-- Favicons -->
-    <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
-    <link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
-    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
     <title>bootstrap portfolio</title>
    <link rel="stylesheet" href="index.css">
 </head>
@@ -33,48 +25,67 @@
           <h3 id="navheight" class=" bg-light text-danger"></h3>
           <a class="navbar-brand" href="#"><img src="logo-03.svg" alt="logo" width="80" height="55" class="img-circle"> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span>bv</span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-down" viewBox="0 0 16 16">
+              <path d="M7.646.146a.5.5 0 0 1 .708 0L10.207 2H14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h3.793L7.646.146zM1 7v3h14V7H1zm14-1V4a1 1 0 0 0-1-1h-3.793a1 1 0 0 1-.707-.293L8 1.207l-1.5 1.5A1 1 0 0 1 5.793 3H2a1 1 0 0 0-1 1v2h14zm0 5H1v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2zM2 4.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+            </svg></span>
           </button>
           <div class="collapse navbar-collapse justify-content-between"  id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
                 <form class="d-flex" role="search">
-                    <input class="form-control ms-4" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
+                  <input class="form-control ms-4" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg>
+                  </button>
+                </form>
+              </li>
             </ul>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link text-primary" href="#"><abbr title="about">About</abbr></a>
-                  </li>
               <li class="nav-item " >
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-houses" viewBox="0 0 16 16">
+                  <path d="M5.793 1a1 1 0 0 1 1.414 0l.647.646a.5.5 0 1 1-.708.708L6.5 1.707 2 6.207V12.5a.5.5 0 0 0 .5.5.5.5 0 0 1 0 1A1.5 1.5 0 0 1 1 12.5V7.207l-.146.147a.5.5 0 0 1-.708-.708L5.793 1Zm3 1a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708L8.793 2Zm.707.707L5 7.207V13.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7.207l-4.5-4.5Z"/>
+                </svg></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-blockquote-left" viewBox="0 0 16 16">
+                  <path d="M2.5 3a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1h-11zm5 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6zm0 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6zm-5 3a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1h-11zm.79-5.373c.112-.078.26-.17.444-.275L3.524 6c-.122.074-.272.17-.452.287-.18.117-.35.26-.51.428a2.425 2.425 0 0 0-.398.562c-.11.207-.164.438-.164.692 0 .36.072.65.217.873.144.219.385.328.72.328.215 0 .383-.07.504-.211a.697.697 0 0 0 .188-.463c0-.23-.07-.404-.211-.521-.137-.121-.326-.182-.568-.182h-.282c.024-.203.065-.37.123-.498a1.38 1.38 0 0 1 .252-.37 1.94 1.94 0 0 1 .346-.298zm2.167 0c.113-.078.262-.17.445-.275L5.692 6c-.122.074-.272.17-.452.287-.18.117-.35.26-.51.428a2.425 2.425 0 0 0-.398.562c-.11.207-.164.438-.164.692 0 .36.072.65.217.873.144.219.385.328.72.328.215 0 .383-.07.504-.211a.697.697 0 0 0 .188-.463c0-.23-.07-.404-.211-.521-.137-.121-.326-.182-.568-.182h-.282a1.75 1.75 0 0 1 .118-.492c.058-.13.144-.254.257-.375a1.94 1.94 0 0 1 .346-.3z"/>
+                </svg></a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  services
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-server" viewBox="0 0 16 16">
+                    <path d="M1.333 2.667C1.333 1.194 4.318 0 8 0s6.667 1.194 6.667 2.667V4c0 1.473-2.985 2.667-6.667 2.667S1.333 5.473 1.333 4V2.667z"/>
+                    <path d="M1.333 6.334v3C1.333 10.805 4.318 12 8 12s6.667-1.194 6.667-2.667V6.334a6.51 6.51 0 0 1-1.458.79C11.81 7.684 9.967 8 8 8c-1.966 0-3.809-.317-5.208-.876a6.508 6.508 0 0 1-1.458-.79z"/>
+                    <path d="M14.667 11.668a6.51 6.51 0 0 1-1.458.789c-1.4.56-3.242.876-5.21.876-1.966 0-3.809-.316-5.208-.876a6.51 6.51 0 0 1-1.458-.79v1.666C1.333 14.806 4.318 16 8 16s6.667-1.194 6.667-2.667v-1.665z"/>
+                  </svg>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Graphic design</a></li>
+                  <li><a class="dropdown-item" href="#">web development</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">App development</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link" href="tel:654130795">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-forward-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zm10.761.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact us</a>
+                <a class="nav-link" href="skills.html">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="about.html"><abbr title="about">About</abbr></a>
+              </li>
+              <li class="nav-item">
+                <img src="pic2.jpg" alt="logo" width="80" height="55" class="img-circle">
               </li>
             </ul>
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                <li class="nav-item">
-                    <img src="pic2.jpg" alt="logo" width="80" height="55" class="img-circle">
-                </li>
-            </ul>
+
           </div>
         </div>
       </nav> 
@@ -150,14 +161,7 @@
                   <div class="card shadow-sm">
                     <img src="eLearning.png" alt="E-learning" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" >
                     <div class="card-body">
-                      <p class="card-text">Online General purpose Electronic Learning system</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
+                      <p class="card-text">Online General purpose Electronic Learning system</p>   
                     </div>
                   </div>
                 </div>
@@ -166,13 +170,7 @@
                     <img src="BANK.JPG" alt="E-learning" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" >
                     <div class="card-body">
                       <p class="card-text">Online Bank Management system with MySQL DataBase Full Support using netbeans IDE, Java, Swing library</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
+                      
                     </div>
                   </div>
                 </div>
@@ -181,13 +179,7 @@
                    <img src="FOOD.JPG" alt="E-learning" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" >
                     <div class="card-body">
                       <p class="card-text">Online food delivery system with home delivery Support system embedded .</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
+                     
                     </div>
                   </div>
                 </div>
@@ -197,13 +189,7 @@
                     <img src="insu.JPG" alt="E-learning" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" >
                     <div class="card-body">
                       <p class="card-text">Insurance management system with HTML, CSS, XAMPP, PHP</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
+                     
                     </div>
                   </div>
                 </div>
@@ -212,13 +198,6 @@
                     <img src="OS.jpg" alt="E-learning" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" >
                     <div class="card-body">
                       <p class="card-text">Basic 32 bit Protected mode operating system Prototype using C/C++, inline Assembly and  Assembly Language.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -227,13 +206,6 @@
                     <img src="ARCH.jpg" alt="E-learning" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" >
                     <div class="card-body">
                       <p class="card-text">16 bit basic computer in proteus with CPU Registers, ALU, Controle Unit, Address, data and controle bus, Von Neumann Architecture, RISC.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -280,26 +252,31 @@
       </div>
 
       <div class="col-md-5 offset-md-1 mb-3">
-        <form>
-          <h5>Subscribe to our newsletter</h5>
-          <p>Monthly digest of what's new and exciting from us.</p>
-          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-            <label for="newsletter1" class="visually-hidden">Email address</label>
-            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-            <button class="btn btn-primary" type="button">Subscribe</button>
+        <form method="POST" name="contactForm" action="mailto:kouete678@gmail.com">
+          <div class="row">
+            <div class="col-lg-8">
+              <label for="name" >NAME:</label>
+              <input required id="name" type="text" class="form-control" placeholder="Enter your name"><hr>
+              <label for="email" >EMAIL:</label>
+              <input required id="email" type="text" class="form-control" placeholder="Email address"><hr>
+              <label for="msg" >Message:</label>
+              <textarea required name="msg" id="message" cols="50" rows="3"></textarea><hr>
+              <input type="submit" value="Send Message" class="text-tertiary bg-danger" >
+            </div>
           </div>
-        </form>
+        </form>   
       </div>
     </div>
 
     <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
       <p>&copy; 2022 DevlabConsultation, Inc. All rights reserved.</p>
       <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a href="https://facebook.com" target="_blank"><span class="fa-brands fa-facebook"></span>facebook</a></li>
+        <li class="ms-3"><a href=" https://m.facebook.com/100031679642140/" target="_blank"><span class="fa-brands fa-facebook"></span>facebook</a></li>
         <li class="ms-3"><a class="link-dark" href="https://github.com/Kouete-kenneth/kouete-kenneth.github.io" target="_blank"><span class="fa-brands fa-github"></span>github</a></li>
         <li class="ms-3"><a class="link-dark" href="https://twitter.com" target="_blank"> <span class="fa-brands fa-twitter"></span>twitter</a></li>
-        <li class="ms-3"><a class="link-dark" href="https://twitter.com" target="_blank"> <span class="fa-brands fa-google"></span>google</a></li>
-        <li class="ms-3"><a class="link-dark" href="https://wa.me/237654130795" target="_blank"> <span class="fa-brands fa-whatsapp"></span>Watsapp</a></li>
+        <li class="ms-3"><a class="link-dark" href="https://google.com" target="_blank"> <span class="fa-brands fa-google"></span>google</a></li>
+        <li class="ms-3"><a class="link-dark" href="https://wa.me/237654130795" target="_blank"> <span class="fa-brands fa-whatsapp"></span>Whatsapp</a></li>
+        <li class="ms-3"><a class="link-dark" href="https://www.linkedin.com/feed/" target="_blank"> <span class="fa-brands fa-linkedin"></span>linkedin</a></li>
       </ul>
     </div>
   </footer>

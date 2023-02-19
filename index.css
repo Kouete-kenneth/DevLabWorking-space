@@ -1,5 +1,25 @@
-body{
+body,html{
     font-family: var(--bs-body-font-family);
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin: 0;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+  font-weight: 600;
+}
+a:hover{
+  color: rgb(240, 140, 202);
+  
+}
+#message,#email,#name{
+    background-color: inherit;
+    color: rgb(207, 196, 152);
+    border: none;
 }
 .name{
     color: rgb(223, 240, 240);
