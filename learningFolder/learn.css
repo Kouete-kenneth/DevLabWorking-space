@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0px ;
+    outline:none;
+    box-sizing: border-box;
+    font-family: "Noto Sans JP",sans-serif;
+    
+ }
+ body{
+    height: 100vh;
+    background-color: brown;
+    min-height: 100vw;
+ }
+ nav footer{
+    flex-shrink: 0;
+ }
+nav div{
+    width: 100vw;
+    height: 7vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+}
+nav div p{
+    padding: 5px;
+    margin: 5px;
+}
+p{
+    font-size: 2vw;
+}
+section div{
+    width: 80vw;
+    height: 20vh;
+    background-color: chartreuse;
+}
+ .learn{
+    position: sticky;
+    width: 100vw;
+    height: 10vh;
+    top: 10px;
+    background-color: rgb(255, 0, 85);
+}
+.learn1{
+    height: 50vh;
+}
+.learn2{
+    height: 200vh;
+}
+section{
+    flex-grow: 1;
+}
+footer div{
+    background-color: darkgray;
+    display: flex;
+    justify-content: flex-end;
+}
+footer div p{
+    padding: 5px;
+}
