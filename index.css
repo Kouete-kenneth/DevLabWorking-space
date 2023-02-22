@@ -8,6 +8,13 @@ body,html{
     left: 0;
     overflow-x: hidden;
 }
+#animation{
+  font-weight: 900;
+  font-size: 1.8em;
+
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
 a{
   text-decoration: none;
   font-weight: 600;

@@ -13,6 +13,40 @@ document.addEventListener("DOMContentLoaded", function(){
            // remove padding top from body
           document.body.style.paddingTop = '0';
         }
-        document.getElementById("navheight").innerHTML="nav height= "+navbar_height;
+        document.getElementById("navheight").innerHTML="nav <br> height="+navbar_height;
     });
   });
+let anima=document.querySelector("#animation");
+let Myskill=["Web developer","Graphic Design","Tutor","Content Provider"];
+let index=0, isAdding=true,skillIndex=0;
+
+function Animation() {
+  setTimeout(function(){
+     anima.innerText=Myskill[skillIndex].slice(0,index);
+     if (isAdding) {
+        if (index>Myskill[skillIndex].length) {
+            isAdding=false;
+            setTimeout(function(){
+               Animation()
+            }, 5000);
+            return;
+        } else {
+            index++;
+        }
+     } else {
+        if (index===0) {
+            isAdding=true;
+           skillIndex=(skillIndex+1)% Myskill.length;
+        } else {
+            index--;
+        }
+     }
+     Animation();
+  },isAdding?120 : 60)
+  
+}
+
+Animation();
+  
+      
+   
