@@ -23,6 +23,9 @@ a:hover{
   color: rgb(240, 140, 202);
   
 }
+blockquote footer{
+  color: darkkhaki;
+}
 #message,#email,#name{
     background-color: inherit;
     color: rgb(207, 196, 152);
