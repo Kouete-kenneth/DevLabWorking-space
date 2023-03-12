@@ -28,7 +28,7 @@ function Animation() {
             isAdding=false;
             setTimeout(function(){
                Animation()
-            }, 5000);
+            }, 10000);
             return;
         } else {
             index++;
@@ -42,7 +42,7 @@ function Animation() {
         }
      }
      Animation();
-  },isAdding?120 : 60)
+  },isAdding?100 : 60)
   
 }
 
