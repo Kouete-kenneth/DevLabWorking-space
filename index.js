@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(){
            // remove padding top from body
           document.body.style.paddingTop = '0';
         }
-        document.getElementById("navheight").innerHTML="nav <br> height="+navbar_height;
+        //document.getElementById("navheight").innerHTML="nav <br> height="+navbar_height;
     });
   });
 let anima=document.querySelector("#animation");

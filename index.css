@@ -116,11 +116,19 @@ blockquote footer{
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
-
+  .GetSolution{
+    display: inline;
+    border-radius: 10%;
+    animation: myGet 5s infinite;
+  }
+  @keyframes myGet{
+    from {margin-left: 0px;}
+    to{margin-left: 100px;}
+  }
   @media only screen and (max-width:990px) {
     .firstcol{
       height: 200px;
-       background-color: rgb(89, 97, 94);
+       background-color: rgb(94, 133, 119);
       
     }
     .firstcol1{
