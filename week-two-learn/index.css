@@ -25,7 +25,7 @@ body{
 #main-1{
     width: 95%;
     height: 30%;
-    background-color: aqua;
+  
     box-sizing: border-box;
     display: flex;
     justify-content: flex-start;
@@ -41,17 +41,10 @@ body{
 }
 #main-1>span>i{
     font-size: 0.8vw;
-   
+   color: rgb(247, 64, 64);
+   visibility: hidden;
 }
-#main-1 span:first-of-type{
-    background-color: rgb(252, 250, 247);
-}
-#main-1 span:nth-child(2){
-    background-color: rgb(245, 245, 250);
-}
-#main-1 span:last-child{
-    background-color: rgb(246, 248, 244);
-}
+
 #main-2{
     position: relative;
     width: 95%;
